@@ -1,0 +1,723 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8403263085162067470
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 6952
+    y: 6119
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Molly
+    text: "Sure, thanks meow! I\u2019ll go now"
+    characterSprite: {fileID: 21300000, guid: a078d047d1d93ab4f88097ff16fd5c7d, type: 3}
+  parentNode: {fileID: 0}
+  childNode: {fileID: 0}
+--- !u!114 &-7689766575163801299
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 6440
+    y: 5750
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Belang
+    text: Take this key meow
+    characterSprite: {fileID: 21300000, guid: 2e520e6f3b3155b4a9ebf8f4dbf341b5, type: 3}
+  parentNode: {fileID: 0}
+  childNode: {fileID: -4511870123491337551}
+--- !u!114 &-7363157654056067326
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 5435
+    y: 4729
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Molly
+    text: "I see.. So my father is still in this cat cafe\u2026"
+    characterSprite: {fileID: 21300000, guid: a078d047d1d93ab4f88097ff16fd5c7d, type: 3}
+  parentNode: {fileID: 0}
+  childNode: {fileID: 617577618000387848}
+--- !u!114 &-6532608960579293745
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1717f3c6dba9fa40844ddacac301510, type: 3}
+  m_Name: Answer Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 3880
+    y: 4006
+    width: 190
+    height: 145
+  isDragging: 0
+  isSelected: 0
+  answers:
+  - Arrived..?? where are we..?
+  - "Where\u2019s my father ..? meow"
+  - 
+  - 
+  parentSentenceNode: {fileID: 0}
+  childSentenceNodes:
+  - {fileID: 2911661725456336140}
+  - {fileID: 487663346604304907}
+  - {fileID: 0}
+  - {fileID: 0}
+--- !u!114 &-6051725915025834951
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 6121
+    y: 5391
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Molly
+    text: "Hmm I see\u2026 that\u2019s not a big deal "
+    characterSprite: {fileID: 21300000, guid: a078d047d1d93ab4f88097ff16fd5c7d, type: 3}
+  parentNode: {fileID: 0}
+  childNode: {fileID: 416914553615711294}
+--- !u!114 &-5921127466507296473
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 5816
+    y: 5125
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Belang
+    text: "Oh! Heheheh\u2026. Do you see that open window? "
+    characterSprite: {fileID: 21300000, guid: 2e520e6f3b3155b4a9ebf8f4dbf341b5, type: 3}
+  parentNode: {fileID: 0}
+  childNode: {fileID: 3655722215491133105}
+--- !u!114 &-4511870123491337551
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 6440
+    y: 5862
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Belang
+    text: This is a duplicate key used for my cage and your father's cage
+    characterSprite: {fileID: 21300000, guid: 2e520e6f3b3155b4a9ebf8f4dbf341b5, type: 3}
+  parentNode: {fileID: 0}
+  childNode: {fileID: 8573204573123180229}
+--- !u!114 &-3841791742292494080
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 6436
+    y: 5632
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Belang
+    text: "Okay\u2026 heheh, I have something for you"
+    characterSprite: {fileID: 21300000, guid: 2e520e6f3b3155b4a9ebf8f4dbf341b5, type: 3}
+  parentNode: {fileID: 0}
+  childNode: {fileID: -7689766575163801299}
+--- !u!114 &-2737667141823232476
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 5513
+    y: 4994
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Molly
+    text: What should I do to rescue my father?
+    characterSprite: {fileID: 21300000, guid: a078d047d1d93ab4f88097ff16fd5c7d, type: 3}
+  parentNode: {fileID: 0}
+  childNode: {fileID: 617577618000387848}
+--- !u!114 &-869908864965406056
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 4982
+    y: 4309
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Belang
+    text: Yes, your father told me a lot about you and your siblings
+    characterSprite: {fileID: 21300000, guid: 2e520e6f3b3155b4a9ebf8f4dbf341b5, type: 3}
+  parentNode: {fileID: 0}
+  childNode: {fileID: 6133059165908933995}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33f741ea10ebcf842a91c9b871dd032a, type: 3}
+  m_Name: Belang Chapter 3
+  m_EditorClassIdentifier: 
+  nodesList:
+  - {fileID: 2546247168400952419}
+  - {fileID: 2911661725456336140}
+  - {fileID: -6532608960579293745}
+  - {fileID: 487663346604304907}
+  - {fileID: 4607272044441718925}
+  - {fileID: 8711337282887731011}
+  - {fileID: 4597138929408830332}
+  - {fileID: -869908864965406056}
+  - {fileID: 6133059165908933995}
+  - {fileID: 3808331425936258121}
+  - {fileID: 1648149663680054682}
+  - {fileID: -7363157654056067326}
+  - {fileID: -2737667141823232476}
+  - {fileID: 617577618000387848}
+  - {fileID: -5921127466507296473}
+  - {fileID: 3655722215491133105}
+  - {fileID: -6051725915025834951}
+  - {fileID: 416914553615711294}
+  - {fileID: -3841791742292494080}
+  - {fileID: -7689766575163801299}
+  - {fileID: -4511870123491337551}
+  - {fileID: 8573204573123180229}
+  - {fileID: 7816967427162553191}
+  - {fileID: -8403263085162067470}
+  nodeToDrawLineFrom: {fileID: 0}
+  linePosition: {x: 0, y: 0}
+--- !u!114 &416914553615711294
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 6273
+    y: 5509
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Molly
+    text: "Jumping is my forte! Don\u2019t worry meow!"
+    characterSprite: {fileID: 21300000, guid: a078d047d1d93ab4f88097ff16fd5c7d, type: 3}
+  parentNode: {fileID: 0}
+  childNode: {fileID: -3841791742292494080}
+--- !u!114 &487663346604304907
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 4127
+    y: 4164
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Molly
+    text: "Where\u2019s my father ..? meow"
+    characterSprite: {fileID: 21300000, guid: a078d047d1d93ab4f88097ff16fd5c7d, type: 3}
+  parentNode: {fileID: 0}
+  childNode: {fileID: 4607272044441718925}
+--- !u!114 &617577618000387848
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 5740
+    y: 4988
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Belang
+    text: "Hmmmh\u2026 the cafe is closed today meow\u2026"
+    characterSprite: {fileID: 21300000, guid: 2e520e6f3b3155b4a9ebf8f4dbf341b5, type: 3}
+  parentNode: {fileID: 0}
+  childNode: {fileID: -5921127466507296473}
+--- !u!114 &1648149663680054682
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1717f3c6dba9fa40844ddacac301510, type: 3}
+  m_Name: Answer Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 5183
+    y: 4701
+    width: 190
+    height: 145
+  isDragging: 0
+  isSelected: 0
+  answers:
+  - "I see.. So my father is still in this cat cafe\u2026"
+  - What should I do to rescue my father?
+  - 
+  - 
+  parentSentenceNode: {fileID: 0}
+  childSentenceNodes:
+  - {fileID: -7363157654056067326}
+  - {fileID: -2737667141823232476}
+  - {fileID: 0}
+  - {fileID: 0}
+--- !u!114 &2546247168400952419
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 4049
+    y: 3984
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Belang
+    text: We have arrived eheheh.. meow
+    characterSprite: {fileID: 21300000, guid: 2e520e6f3b3155b4a9ebf8f4dbf341b5, type: 3}
+  parentNode: {fileID: 0}
+  childNode: {fileID: -6532608960579293745}
+--- !u!114 &2911661725456336140
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 4272
+    y: 4114
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Molly
+    text: Arrived..?? where are we..?
+    characterSprite: {fileID: 21300000, guid: a078d047d1d93ab4f88097ff16fd5c7d, type: 3}
+  parentNode: {fileID: 0}
+  childNode: {fileID: 4607272044441718925}
+--- !u!114 &3655722215491133105
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 5952
+    y: 5249
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Belang
+    text: You can enter from that window but you have to jump to reach it
+    characterSprite: {fileID: 21300000, guid: 2e520e6f3b3155b4a9ebf8f4dbf341b5, type: 3}
+  parentNode: {fileID: 0}
+  childNode: {fileID: -6051725915025834951}
+--- !u!114 &3808331425936258121
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 4992
+    y: 4586
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Belang
+    text: "But I was the only one who managed to escape\u2026"
+    characterSprite: {fileID: 21300000, guid: 2e520e6f3b3155b4a9ebf8f4dbf341b5, type: 3}
+  parentNode: {fileID: 0}
+  childNode: {fileID: 1648149663680054682}
+--- !u!114 &4597138929408830332
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 4934
+    y: 4334
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Molly
+    text: "Work together..?? so you\u2019re really friends with my father..?!"
+    characterSprite: {fileID: 21300000, guid: a078d047d1d93ab4f88097ff16fd5c7d, type: 3}
+  parentNode: {fileID: 0}
+  childNode: {fileID: -869908864965406056}
+--- !u!114 &4607272044441718925
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 4380
+    y: 4076
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Belang
+    text: Your father is inside this cat cafe meow
+    characterSprite: {fileID: 21300000, guid: 2e520e6f3b3155b4a9ebf8f4dbf341b5, type: 3}
+  parentNode: {fileID: 0}
+  childNode: {fileID: 8711337282887731011}
+--- !u!114 &6133059165908933995
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 4972
+    y: 4460
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Belang
+    text: "Me and your father are planning to escape from this cat cafe\u2026. "
+    characterSprite: {fileID: 21300000, guid: 2e520e6f3b3155b4a9ebf8f4dbf341b5, type: 3}
+  parentNode: {fileID: 0}
+  childNode: {fileID: 3808331425936258121}
+--- !u!114 &7816967427162553191
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 6796
+    y: 5990
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Belang
+    text: Heheh~ give my regards to your father!
+    characterSprite: {fileID: 21300000, guid: 2e520e6f3b3155b4a9ebf8f4dbf341b5, type: 3}
+  parentNode: {fileID: 0}
+  childNode: {fileID: -8403263085162067470}
+--- !u!114 &8573204573123180229
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 6644
+    y: 5839
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Molly
+    text: Oh..! this gonna be useful thank you Belang!
+    characterSprite: {fileID: 21300000, guid: a078d047d1d93ab4f88097ff16fd5c7d, type: 3}
+  parentNode: {fileID: 0}
+  childNode: {fileID: 7816967427162553191}
+--- !u!114 &8711337282887731011
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 4585
+    y: 4166
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Belang
+    text: "I\u2019m used to work together with your father at this cafe"
+    characterSprite: {fileID: 21300000, guid: 2e520e6f3b3155b4a9ebf8f4dbf341b5, type: 3}
+  parentNode: {fileID: 0}
+  childNode: {fileID: 4597138929408830332}

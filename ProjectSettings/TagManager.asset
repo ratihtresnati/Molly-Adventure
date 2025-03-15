@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - NPC
+  - Objection
+  - Scene
+  - fallingPlatform
+  - Undefined
+  - Hide
+  - PlayerHide
+  - Health
+  - Enemy
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - Obstacle
+  - Water
+  - UI
+  - Interaction
+  - Player
+  - fallingPlatform
+  - groundMask
+  - groundLayer
+  - deathLayer
+  - fagilePlatformMask
+  - parallaxLayerMask
+  - FadeScreen
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: BG
+    uniqueID: 1924918799
+    locked: 0
+  - name: Environment
+    uniqueID: 2894754163
+    locked: 0
+  - name: Player
+    uniqueID: 3094622071
+    locked: 0
+  - name: obstacleMask
+    uniqueID: 4133052603
+    locked: 0
+  - name: groundMask
+    uniqueID: 42861173
+    locked: 0

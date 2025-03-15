@@ -1,0 +1,486 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-9162418060732197166
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: -1922
+    y: -398.33334
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Molly
+    text: Hi are you Momo..? Meow
+    characterSprite: {fileID: 21300000, guid: a078d047d1d93ab4f88097ff16fd5c7d, type: 3}
+  parentNode: {fileID: 0}
+  childNode: {fileID: 6179177197529407925}
+--- !u!114 &-7991131779734645054
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1717f3c6dba9fa40844ddacac301510, type: 3}
+  m_Name: Answer Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: -1106
+    y: -368
+    width: 190
+    height: 145
+  isDragging: 0
+  isSelected: 0
+  answers:
+  - Are you in relationship with Belang?
+  - You liked him?
+  - 
+  - 
+  parentSentenceNode: {fileID: 0}
+  childSentenceNodes:
+  - {fileID: -629295689073925521}
+  - {fileID: -3176036325101432047}
+  - {fileID: 0}
+  - {fileID: 0}
+--- !u!114 &-5767566594329331468
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: -1526
+    y: -589.3333
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Molly
+    text: "I\u2019m Molly and I have something for you "
+    characterSprite: {fileID: 21300000, guid: a078d047d1d93ab4f88097ff16fd5c7d, type: 3}
+  parentNode: {fileID: 0}
+  childNode: {fileID: -4361386025679941634}
+--- !u!114 &-4361386025679941634
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: -1333
+    y: -497
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Molly
+    text: Belang asked me to give you this white jasmine
+    characterSprite: {fileID: 21300000, guid: a078d047d1d93ab4f88097ff16fd5c7d, type: 3}
+  parentNode: {fileID: 0}
+  childNode: {fileID: 857585002820591316}
+--- !u!114 &-3907185063261790689
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: -642
+    y: -247
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Momo
+    text: For now..
+    characterSprite: {fileID: 21300000, guid: f70863128f268be4f8b804e013a4bdcb, type: 3}
+  parentNode: {fileID: 0}
+  childNode: {fileID: 7123212637570475555}
+--- !u!114 &-3176036325101432047
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: -1077
+    y: -172
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Molly
+    text: You liked him?
+    characterSprite: {fileID: 21300000, guid: a078d047d1d93ab4f88097ff16fd5c7d, type: 3}
+  parentNode: {fileID: 0}
+  childNode: {fileID: -1538222500395430049}
+--- !u!114 &-2710677551578457480
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: -247
+    y: -223
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Momo
+    text: Belang is a reliable cat, you can trust him
+    characterSprite: {fileID: 21300000, guid: f70863128f268be4f8b804e013a4bdcb, type: 3}
+  parentNode: {fileID: 0}
+  childNode: {fileID: 5364746954930550830}
+--- !u!114 &-1538222500395430049
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: -830
+    y: -148
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Momo
+    text: "Oh, we\u2019re just a close friend"
+    characterSprite: {fileID: 21300000, guid: f70863128f268be4f8b804e013a4bdcb, type: 3}
+  parentNode: {fileID: 0}
+  childNode: {fileID: -3907185063261790689}
+--- !u!114 &-871780006892057641
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 281
+    y: 93
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Molly
+    text: "Alright then I\u2019ll give this yellow daisy to him, bye-bye Momo"
+    characterSprite: {fileID: 21300000, guid: a078d047d1d93ab4f88097ff16fd5c7d, type: 3}
+  parentNode: {fileID: 0}
+  childNode: {fileID: 0}
+--- !u!114 &-629295689073925521
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: -862
+    y: -384
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Molly
+    text: Are you in relationship with Belang?
+    characterSprite: {fileID: 21300000, guid: a078d047d1d93ab4f88097ff16fd5c7d, type: 3}
+  parentNode: {fileID: 0}
+  childNode: {fileID: -1538222500395430049}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33f741ea10ebcf842a91c9b871dd032a, type: 3}
+  m_Name: Momo
+  m_EditorClassIdentifier: 
+  nodesList:
+  - {fileID: -9162418060732197166}
+  - {fileID: -5767566594329331468}
+  - {fileID: 857585002820591316}
+  - {fileID: 2310371135683306039}
+  - {fileID: 5364746954930550830}
+  - {fileID: 6179177197529407925}
+  - {fileID: -4361386025679941634}
+  - {fileID: -7991131779734645054}
+  - {fileID: -1538222500395430049}
+  - {fileID: -3907185063261790689}
+  - {fileID: 7123212637570475555}
+  - {fileID: -2710677551578457480}
+  - {fileID: 5317539652938335591}
+  - {fileID: -871780006892057641}
+  - {fileID: -3176036325101432047}
+  - {fileID: -629295689073925521}
+  nodeToDrawLineFrom: {fileID: 0}
+  linePosition: {x: 0, y: 0}
+--- !u!114 &857585002820591316
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: -1409
+    y: -328
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Momo
+    text: 'Oh..! Belang..! '
+    characterSprite: {fileID: 21300000, guid: f70863128f268be4f8b804e013a4bdcb, type: 3}
+  parentNode: {fileID: 0}
+  childNode: {fileID: 2310371135683306039}
+--- !u!114 &2310371135683306039
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: -1284
+    y: -174
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Momo
+    text: "Thanks miaw! He\u2019s really sweet~"
+    characterSprite: {fileID: 21300000, guid: f70863128f268be4f8b804e013a4bdcb, type: 3}
+  parentNode: {fileID: 0}
+  childNode: {fileID: -7991131779734645054}
+--- !u!114 &5317539652938335591
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 82
+    y: 31
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Molly
+    text: "Humm okay meow I\u2019ll try to trust him"
+    characterSprite: {fileID: 21300000, guid: a078d047d1d93ab4f88097ff16fd5c7d, type: 3}
+  parentNode: {fileID: 0}
+  childNode: {fileID: -871780006892057641}
+--- !u!114 &5364746954930550830
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: -131
+    y: -63
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Molly
+    text: 'Huh..meow? '
+    characterSprite: {fileID: 21300000, guid: a078d047d1d93ab4f88097ff16fd5c7d, type: 3}
+  parentNode: {fileID: 0}
+  childNode: {fileID: 5317539652938335591}
+--- !u!114 &6179177197529407925
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: -1726
+    y: -527
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Momo
+    text: "Yes I\u2019m Momo, who are you and what do you want..?"
+    characterSprite: {fileID: 21300000, guid: f70863128f268be4f8b804e013a4bdcb, type: 3}
+  parentNode: {fileID: 0}
+  childNode: {fileID: -5767566594329331468}
+--- !u!114 &7123212637570475555
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: -448
+    y: -115
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Momo
+    text: By the way, please give this yellow daisy to him miaw
+    characterSprite: {fileID: 21300000, guid: f70863128f268be4f8b804e013a4bdcb, type: 3}
+  parentNode: {fileID: 0}
+  childNode: {fileID: -2710677551578457480}

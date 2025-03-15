@@ -1,0 +1,750 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8389756203576345051
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 580
+    y: 67.66661
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Kiki
+    text: "I believe that mother didn\u2019t lie to me!"
+    characterSprite: {fileID: 21300000, guid: 28ab8d301b87d0442ba12108a25c5cb7, type: 3}
+  parentNode: {fileID: 0}
+  childNode: {fileID: 1458809570375123550}
+--- !u!114 &-6269335392283508878
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 1158
+    y: 115.66661
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Kiki
+    text: "I just don\u2019t want to see you sad anymore and maybe this will make
+      you a little happier knowing our father is still alive!"
+    characterSprite: {fileID: 21300000, guid: 28ab8d301b87d0442ba12108a25c5cb7, type: 3}
+  parentNode: {fileID: 0}
+  childNode: {fileID: -3123232623610460823}
+--- !u!114 &-5381995745874371961
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 780
+    y: 66.66661
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Kiki
+    text: No way!
+    characterSprite: {fileID: 21300000, guid: 28ab8d301b87d0442ba12108a25c5cb7, type: 3}
+  parentNode: {fileID: 0}
+  childNode: {fileID: -8389756203576345051}
+--- !u!114 &-5140440800382593829
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 347
+    y: -93.33333
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Kiki
+    text: Are you ready to listen to this information? you still look so sad ...
+      Mew
+    characterSprite: {fileID: 21300000, guid: 28ab8d301b87d0442ba12108a25c5cb7, type: 3}
+  parentNode: {fileID: 0}
+  childNode: {fileID: 7486848496382047620}
+--- !u!114 &-4976068608191239085
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: -52
+    y: -90.33333
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Kiki
+    text: Molly! yes, I have something to tell you!
+    characterSprite: {fileID: 21300000, guid: 28ab8d301b87d0442ba12108a25c5cb7, type: 3}
+  parentNode: {fileID: 0}
+  childNode: {fileID: -3842639138297819025}
+--- !u!114 &-3842639138297819025
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 148
+    y: -92.33333
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Kiki
+    text: But ...
+    characterSprite: {fileID: 21300000, guid: 28ab8d301b87d0442ba12108a25c5cb7, type: 3}
+  parentNode: {fileID: 0}
+  childNode: {fileID: -5140440800382593829}
+--- !u!114 &-3161636456942587891
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: -216
+    y: 203.6666
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Molly
+    text: Yes
+    characterSprite: {fileID: 21300000, guid: a078d047d1d93ab4f88097ff16fd5c7d, type: 3}
+  parentNode: {fileID: 0}
+  childNode: {fileID: 6269764110854696904}
+--- !u!114 &-3123232623610460823
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 984
+    y: 93.66664
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Molly
+    text: I'm not sad and mom is probably just telling that white lie so you won't
+      be sad too
+    characterSprite: {fileID: 21300000, guid: a078d047d1d93ab4f88097ff16fd5c7d, type: 3}
+  parentNode: {fileID: 0}
+  childNode: {fileID: -5381995745874371961}
+--- !u!114 &-2858164974453671777
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: -237
+    y: -87.33333
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Molly
+    text: 'Kiki, you say you have something to tell me '
+    characterSprite: {fileID: 21300000, guid: a078d047d1d93ab4f88097ff16fd5c7d, type: 3}
+  parentNode: {fileID: 0}
+  childNode: {fileID: -4976068608191239085}
+--- !u!114 &-2857814292505126827
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 188
+    y: 175.66666
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Molly
+    text: Maybe I need to go to city to proof that
+    characterSprite: {fileID: 21300000, guid: a078d047d1d93ab4f88097ff16fd5c7d, type: 3}
+  parentNode: {fileID: 0}
+  childNode: {fileID: -1924024979300630244}
+--- !u!114 &-1924024979300630244
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: -1
+    y: 69.66664
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Kiki
+    text: Mew!!???
+    characterSprite: {fileID: 21300000, guid: 28ab8d301b87d0442ba12108a25c5cb7, type: 3}
+  parentNode: {fileID: 0}
+  childNode: {fileID: 8186072437484482313}
+--- !u!114 &-1544075043737158193
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 560
+    y: 272.6666
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Molly
+    text: I'm okay, meow
+    characterSprite: {fileID: 21300000, guid: a078d047d1d93ab4f88097ff16fd5c7d, type: 3}
+  parentNode: {fileID: 0}
+  childNode: {fileID: -438807072312245085}
+--- !u!114 &-836820960321814585
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 373
+    y: 339.6666
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Kiki
+    text: 'But ... Molly ... '
+    characterSprite: {fileID: 21300000, guid: 28ab8d301b87d0442ba12108a25c5cb7, type: 3}
+  parentNode: {fileID: 0}
+  childNode: {fileID: -1544075043737158193}
+--- !u!114 &-684332721871232970
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 1372
+    y: -29.33342
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Kiki
+    text: I don't remember the detail but mother says something like torch ... Mew!
+    characterSprite: {fileID: 21300000, guid: 28ab8d301b87d0442ba12108a25c5cb7, type: 3}
+  parentNode: {fileID: 0}
+  childNode: {fileID: 1303535560014098477}
+--- !u!114 &-438807072312245085
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 751
+    y: 275.6666
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Kiki
+    text: 'But ... '
+    characterSprite: {fileID: 21300000, guid: 28ab8d301b87d0442ba12108a25c5cb7, type: 3}
+  parentNode: {fileID: 0}
+  childNode: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33f741ea10ebcf842a91c9b871dd032a, type: 3}
+  m_Name: Kiki
+  m_EditorClassIdentifier: 
+  nodesList:
+  - {fileID: -2858164974453671777}
+  - {fileID: -4976068608191239085}
+  - {fileID: -3842639138297819025}
+  - {fileID: -5140440800382593829}
+  - {fileID: 7486848496382047620}
+  - {fileID: 4881144484922349459}
+  - {fileID: 3287254075261016274}
+  - {fileID: 2839189502570302195}
+  - {fileID: -684332721871232970}
+  - {fileID: 1303535560014098477}
+  - {fileID: -6269335392283508878}
+  - {fileID: -3123232623610460823}
+  - {fileID: -5381995745874371961}
+  - {fileID: -8389756203576345051}
+  - {fileID: 4216273815257731042}
+  - {fileID: -2857814292505126827}
+  - {fileID: -1924024979300630244}
+  - {fileID: -3161636456942587891}
+  - {fileID: 8186072437484482313}
+  - {fileID: 6269764110854696904}
+  - {fileID: 1387459732012728720}
+  - {fileID: -836820960321814585}
+  - {fileID: -1544075043737158193}
+  - {fileID: -438807072312245085}
+  - {fileID: 1458809570375123550}
+  nodeToDrawLineFrom: {fileID: 0}
+  linePosition: {x: 0, y: 0}
+--- !u!114 &1303535560014098477
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 1359
+    y: 113.66661
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Molly
+    text: Really?? Meow! why you tell me this now, Kiki?
+    characterSprite: {fileID: 21300000, guid: a078d047d1d93ab4f88097ff16fd5c7d, type: 3}
+  parentNode: {fileID: 0}
+  childNode: {fileID: -6269335392283508878}
+--- !u!114 &1387459732012728720
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 143
+    y: 335.6666
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Molly
+    text: "It's okay, Kiki, I won\u2019t be afraid of humans anymore ... Meow"
+    characterSprite: {fileID: 21300000, guid: a078d047d1d93ab4f88097ff16fd5c7d, type: 3}
+  parentNode: {fileID: 0}
+  childNode: {fileID: -836820960321814585}
+--- !u!114 &1458809570375123550
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1717f3c6dba9fa40844ddacac301510, type: 3}
+  m_Name: Answer Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 372
+    y: 172.6666
+    width: 190
+    height: 145
+  isDragging: 0
+  isSelected: 0
+  answers:
+  - you're right ...
+  - I need to proof that
+  - 
+  - 
+  parentSentenceNode: {fileID: 0}
+  childSentenceNodes:
+  - {fileID: 4216273815257731042}
+  - {fileID: -2857814292505126827}
+  - {fileID: 0}
+  - {fileID: 0}
+--- !u!114 &2839189502570302195
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 1177
+    y: -76.33333
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Kiki
+    text: He's in the city!
+    characterSprite: {fileID: 21300000, guid: 28ab8d301b87d0442ba12108a25c5cb7, type: 3}
+  parentNode: {fileID: 0}
+  childNode: {fileID: -684332721871232970}
+--- !u!114 &3287254075261016274
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 976
+    y: -103.33336
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Kiki
+    text: I remember, mother once told me that our father is still alive!
+    characterSprite: {fileID: 21300000, guid: 28ab8d301b87d0442ba12108a25c5cb7, type: 3}
+  parentNode: {fileID: 0}
+  childNode: {fileID: 2839189502570302195}
+--- !u!114 &4216273815257731042
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 235
+    y: 36.66661
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Molly
+    text: Hmm you're right ... I will check it with my own eyes then
+    characterSprite: {fileID: 21300000, guid: a078d047d1d93ab4f88097ff16fd5c7d, type: 3}
+  parentNode: {fileID: 0}
+  childNode: {fileID: -1924024979300630244}
+--- !u!114 &4881144484922349459
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 750
+    y: -100.33333
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Kiki
+    text: Really?? Okay then ... Mew
+    characterSprite: {fileID: 21300000, guid: 28ab8d301b87d0442ba12108a25c5cb7, type: 3}
+  parentNode: {fileID: 0}
+  childNode: {fileID: 3287254075261016274}
+--- !u!114 &6269764110854696904
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: -19
+    y: 219.66653
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Kiki
+    text: But ... It's dangerous! there's so many bad humans out there!
+    characterSprite: {fileID: 21300000, guid: 28ab8d301b87d0442ba12108a25c5cb7, type: 3}
+  parentNode: {fileID: 0}
+  childNode: {fileID: 1387459732012728720}
+--- !u!114 &7486848496382047620
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 517
+    y: -72.33333
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Molly
+    text: I'm okay.
+    characterSprite: {fileID: 21300000, guid: a078d047d1d93ab4f88097ff16fd5c7d, type: 3}
+  parentNode: {fileID: 0}
+  childNode: {fileID: 4881144484922349459}
+--- !u!114 &8186072437484482313
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: -221
+    y: 70.66664
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Kiki
+    text: You're going to go to city??
+    characterSprite: {fileID: 21300000, guid: 28ab8d301b87d0442ba12108a25c5cb7, type: 3}
+  parentNode: {fileID: 0}
+  childNode: {fileID: -3161636456942587891}
